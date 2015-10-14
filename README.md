@@ -1,4 +1,4 @@
-#particle_phylo
+#MolEcol_2015
 
 This GitHub Repository contains code and data included in
 

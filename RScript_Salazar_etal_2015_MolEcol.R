@@ -5,15 +5,18 @@ library(geiger)
 library(indicspecies)
 library(picante)
 library(MASS)
+library(RCurl)
 ##########################
 #### Data preparation ####
 ##########################
 
 # Load phylogenetic tree
-tree<-read.tree("FinalTree_Salazar_etal_2015_Molecol.nwk")
+x<-getURL("https://raw.githubusercontent.com/GuillemSalazar/MolEcol_2015/master/FinalTree_Salazar_etal_2015_Molecol.nwk")
+tree<-read.tree(text=x)
 
 # Load OTU table and separate taxonomy from counts
-OTUtab.complete.ss<-read.table("OTUtable_Salazar_etal_2015_Molecol.txt",sep="\t",row.names=1,header=TRUE,comment.char="@")
+x<-getURL("https://raw.githubusercontent.com/GuillemSalazar/MolEcol_2015/master/OTUtable_Salazar_etal_2015_Molecol.txt")
+OTUtab.complete.ss<-read.table(text=x,sep="\t",row.names=1,header=TRUE,comment.char="@")
 OTUtab.ss<-OTUtab.complete.ss[,1:60]
 otus.null<-which(rowSums(OTUtab.ss)>0)
 OTUtab.ss<-OTUtab.ss[otus.null,]
@@ -58,7 +61,8 @@ OTUtab.complete.ss$RDP_Family<-factor(OTUtab.complete.ss$RDP_Family)
 OTUtab.complete.ss$RDP_Genus<-factor(OTUtab.complete.ss$RDP_Genus)
 
 # Load auxiliary data
-metad<-read.table("Metadata_Salazar_etal_2015_Molecol.txt",sep="\t",header=TRUE)
+x<-getURL("https://raw.githubusercontent.com/GuillemSalazar/MolEcol_2015/master/Metadata_Salazar_etal_2015_Molecol.txt")
+metad<-read.table(text=x,sep="\t",header=TRUE)
 metad$filtersize<-as.factor(metad$filtersize)
 metad08<-metad[which(metad$filtersize==0.8),]
 metad02<-metad[which(metad$filtersize==0.2),]
