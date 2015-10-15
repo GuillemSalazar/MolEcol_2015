@@ -10,6 +10,10 @@ Data is also accessible at [*Dryad*](https://datadryad.org/handle/10255/3/workfl
 
 Guillem Salazar
 
+##Citation
+
+[![DOI](https://zenodo.org/badge/18788/GuillemSalazar/MolEcol_2015.svg)](https://zenodo.org/badge/latestdoi/18788/GuillemSalazar/MolEcol_2015)
+
 ##Software Versions
 
 *R*: version 3.2.1  
@@ -18,4 +22,5 @@ Guillem Salazar
 ##Contact Info
 
 Guillem Salazar (salazar@icm.csic.es)
+
 
