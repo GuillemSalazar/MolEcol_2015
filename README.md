@@ -37,6 +37,6 @@ Guillem Salazar
 *R*: version 3.2.1  
 *RStudio*: Version 0.99.467
 
-##Contact Info
+## Contact Info
 
 Guillem Salazar (salazar@icm.csic.es)
