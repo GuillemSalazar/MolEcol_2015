@@ -1,4 +1,4 @@
-#MolEcol_2015
+# MolEcol_2015
 
 This GitHub Repository contains code and data included in:
 
@@ -9,7 +9,7 @@ Salazar G., Cornejo-Castillo F.M., Borrull E., Díez-Vives C., Lara E., Vaqué D
 
 Data is also accessible at [*Dryad*](https://datadryad.org/handle/10255/3/workflow?workflowID=59300&stepID=reviewStep&actionID=reviewAction)
 
-##Files
+## Files
 
  - **OTUtable_Salazar_etal_2015_Molecol.txt**: Abundance table for bathypelagic prokaryotes from Malaspina 2010 Expedition.  
  Abundance table containing the number of reads for the Operational Taxonomic Units (OTUs) of particle-attached (PA) and free-living (FL) prokaryotes detected in 30 globally distributed stations from the Malaspina 2010 Expedition. Corresponds to 16SrDNA amplicons Illumina-based sequencing. Table is rarefied to 10,617 reads/sample. Columns are the samples; Rows are the OTUs. Taxonomy is attached after the last sample.  
@@ -24,15 +24,15 @@ Data is also accessible at [*Dryad*](https://datadryad.org/handle/10255/3/workfl
  - **Alignment_Salazar_etal_2015_Molecol.phylip**: Alignment used for the phylogeny contruction (containing the OTU representative sequences and the closest SILVA v.115 sequences)
  - **RScript_Salazar_etal_2015_MolEcol.R**: R script reproducing analyses in the publication.
 
-##Authors
+## Authors
 
 Guillem Salazar
 
-##Citation
+## Citation
 
 [![DOI](https://zenodo.org/badge/18788/GuillemSalazar/MolEcol_2015.svg)](https://zenodo.org/badge/latestdoi/18788/GuillemSalazar/MolEcol_2015)
 
-##Software Versions
+## Software Versions
 
 *R*: version 3.2.1  
 *RStudio*: Version 0.99.467
