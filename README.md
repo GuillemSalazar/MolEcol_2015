@@ -13,7 +13,10 @@ Data is also accessible at [*Dryad*](https://datadryad.org/handle/10255/3/workfl
 
  - **OTUtable_Salazar_etal_2015_Molecol.txt**: Abundance table for bathypelagic prokaryotes from Malaspina 2010 Expedition.  
  Abundance table containing the number of reads for the Operational Taxonomic Units (OTUs) of particle-attached (PA) and free-living (FL) prokaryotes detected in 30 globally distributed stations from the Malaspina 2010 Expedition. Corresponds to 16SrDNA amplicons Illumina-based sequencing. Table is rarefied to 10,617 reads/sample. Columns are the samples; Rows are the OTUs. Taxonomy is attached after the last sample.  
- 
+
+ - **OTUtable_Salazar_etal_2015_Molecol_norarefac.txt**: Abundance table for bathypelagic prokaryotes from Malaspina 2010 Expedition (without rarefaction).  
+ Abundance table containing the raw number of reads, i.e. before the rarefaction. 
+  
  - **Metadata_Salazar_etal_2015_Molecol.txt**: Auxiliary data for the samples.
  Auxiliary data containing information on the station, size-fraction, date of sampling, ocean, depth and coordinates.
  
