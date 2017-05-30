@@ -23,6 +23,7 @@ Data is also accessible at [*Dryad*](https://datadryad.org/handle/10255/3/workfl
  - **FinalTree_Salazar_etal_2015_Molecol.nwk**: Phylogeny of the OTUs representative sequences
  - **Alignment_Salazar_etal_2015_Molecol.phylip**: Alignment used for the phylogeny contruction (containing the OTU representative sequences and the closest SILVA v.115 sequences)
  - **RScript_Salazar_etal_2015_MolEcol.R**: R script reproducing analyses in the publication.
+ - **OTUs.fasta**: Fasta file of OTUs' representative sequences (matching the ones in *OTUtable_Salazar_etal_2015_Molecol.txt*)
 
 ## Authors
 
